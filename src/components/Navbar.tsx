@@ -17,8 +17,31 @@ export function Navbar(){
           About
         </Nav.Link>
       </Nav>
-      <Button type="button" className="btn btn-outline-primary ">
-        <BsCart3 size={34} />
+      <Button 
+        style={{ width: "3rem", height: "3rem", position: "relative", }}
+        className="rounded-circle"
+        variant="outline-primary"
+      >
+        <div 
+        className="
+          rounded-circle 
+          bg-danger 
+          d-flex 
+          justify-content-center 
+          align-items-center"
+        style={{ 
+          color: "white", 
+          width: "1.5rem", 
+          height: "1.5rem", 
+          position: "absolute",
+          bottom: 0,
+          right: 0,
+          transform: "translate(25%, 25%)",
+        }}
+        >
+          3
+        </div>
+        <BsCart3 size={24}/>
       </Button>
     </Container>
   </NavbarBs>
