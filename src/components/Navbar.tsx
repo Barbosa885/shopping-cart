@@ -4,7 +4,7 @@ import { BsCart3 } from "react-icons/bs";
 
 export function Navbar(){
   return ( 
-  <NavbarBs className="bg-white shadow-sm mb-1">
+  <NavbarBs sticky="top" className="bg-white shadow-sm mb-1">
     <Container> 
       <Nav className="me-auto">
         <Nav.Link to="/" as={NavLink}>
