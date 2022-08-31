@@ -2,28 +2,28 @@
   {
     "id": 1,
     "name": "Champions Karambit",
-    "price": 5.350,
+    "price": 5350,
     "imgUrl": "/imgs/knifes/Valorant-Champions-2021-Collection-Karambit-HD.jpg"
   },
 
   {
     "id": 2,
     "name": "Ego Knife",
-    "price": 3.550,
+    "price": 3550,
     "imgUrl": "/imgs/knifes/Valorant-Ego-Collection-Knife-HD.jpg"
   },
 
   {
     "id": 3,
     "name": "Oni Knife",
-    "price": 3.550,
+    "price": 3550,
     "imgUrl": "/imgs/knifes/Valorant-Oni-Collection-Melee-HD.jpg"
   },
 
   {
     "id": 4,
     "name": "Prime Knife 1.0",
-    "price": 3.550,
+    "price": 3550,
     "imgUrl": "/imgs/knifes/Valorant-Prime-Knife-hd.jpg"
   }
 ]
