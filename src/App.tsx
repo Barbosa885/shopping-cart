@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 
 // Components
 import { Container } from "react-bootstrap";
@@ -12,16 +13,16 @@ import { Store } from "./pages/Store";
 function App() {
 
   return (
-  <>
-  <Navbar />
-  <Container className="mb-4">
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/store" element={<Store />} />
-      <Route path="/about" element={<About />} />
-    </Routes>
-  </Container>
-  </>
+  <ShoppingCartProvider>
+    <Navbar />
+    <Container className="mb-4">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/store" element={<Store />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Container>
+  </ShoppingCartProvider>
   )
 
 }
